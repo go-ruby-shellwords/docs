@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://go-ruby-shellwords.github.io/docs/0.1/api/">
+        <link rel="canonical" href="https://go-ruby-shellwords.github.io/docs/0.1/performance/">
       
       
-        <link rel="prev" href="../why/">
+        <link rel="prev" href="../roadmap/">
       
       
-        <link rel="next" href="../roadmap/">
+        <link rel="next" href="../contributing/">
       
       
       <link rel="icon" href="../assets/logo.svg">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Usage & API - go-ruby-shellwords docs</title>
+        <title>Performance - go-ruby-shellwords docs</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#usage-api" class="md-skip">
+        <a href="#performance" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Usage & API
+              Performance
             
           </span>
         </div>
@@ -306,30 +306,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Usage & API
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -338,71 +318,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#install" class="md-nav__link">
-    <span class="md-ellipsis">
-      Install
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#worked-example" class="md-nav__link">
-    <span class="md-ellipsis">
-      Worked example
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#shape" class="md-nav__link">
-    <span class="md-ellipsis">
-      Shape
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mri-conformance" class="md-nav__link">
-    <span class="md-ellipsis">
-      MRI conformance
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#relationship-to-ruby" class="md-nav__link">
-    <span class="md-ellipsis">
-      Relationship to Ruby
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -431,10 +346,30 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../performance/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Performance
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -443,6 +378,77 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-measured" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is measured
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#library-level-benchmark-go-api-vs-runtimes-2026-07-03" class="md-nav__link">
+    <span class="md-ellipsis">
+      Library-level benchmark (Go API vs runtimes) — 2026-07-03
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Library-level benchmark (Go API vs runtimes) — 2026-07-03">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#split" class="md-nav__link">
+    <span class="md-ellipsis">
+      split
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escape" class="md-nav__link">
+    <span class="md-ellipsis">
+      escape
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#join" class="md-nav__link">
+    <span class="md-ellipsis">
+      join
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -494,47 +500,53 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#install" class="md-nav__link">
+  <a href="#what-is-measured" class="md-nav__link">
     <span class="md-ellipsis">
-      Install
+      What is measured
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#worked-example" class="md-nav__link">
+  <a href="#library-level-benchmark-go-api-vs-runtimes-2026-07-03" class="md-nav__link">
     <span class="md-ellipsis">
-      Worked example
+      Library-level benchmark (Go API vs runtimes) — 2026-07-03
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Library-level benchmark (Go API vs runtimes) — 2026-07-03">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#split" class="md-nav__link">
+    <span class="md-ellipsis">
+      split
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#shape" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#escape" class="md-nav__link">
     <span class="md-ellipsis">
-      Shape
+      escape
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#mri-conformance" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#join" class="md-nav__link">
     <span class="md-ellipsis">
-      MRI conformance
+      join
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#relationship-to-ruby" class="md-nav__link">
-    <span class="md-ellipsis">
-      Relationship to Ruby
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -553,45 +565,219 @@
                   
 
 
-<h1 id="usage-api">Usage &amp; API<a class="headerlink" href="#usage-api" title="Permanent link">&para;</a></h1>
-<p>The public API lives at the module root (<code>github.com/go-ruby-shellwords/shellwords</code>). It is <strong>Ruby-shaped but Go-idiomatic</strong>: <code>Split</code> / <code>Escape</code> / <code>Join</code> mirror Shellwords' <code>shellsplit</code> / <code>shellescape</code> / <code>shelljoin</code>, while the surface follows Go conventions — an explicit <code>error</code>, value types, no global state.</p>
-<div class="admonition success">
-<p class="admonition-title">Status: implemented</p>
-<p>The library is built and importable as <code>github.com/go-ruby-shellwords/shellwords</code>, bound into
-<code>rbgo</code> as a native module; see <a href="../roadmap/">Roadmap</a>.</p>
+<h1 id="performance">Performance<a class="headerlink" href="#performance" title="Permanent link">&para;</a></h1>
+<p><code>go-ruby-shellwords/shellwords</code> is the pure-Go library that
+<a href="https://github.com/go-embedded-ruby/ruby"><code>rbgo</code></a> binds for Ruby's <code>Shellwords</code>.
+This page records a <strong>comparative benchmark</strong> of that module against the reference
+Ruby runtimes, part of the ecosystem-wide per-module parity suite.</p>
+<h2 id="what-is-measured">What is measured<a class="headerlink" href="#what-is-measured" title="Permanent link">&para;</a></h2>
+<p>The <strong>same</strong> workload — the three representative <code>Shellwords</code> operations —
+is run through the pure-Go library's Go API and through each reference runtime's
+own <code>shellwords</code>:</p>
+<ul>
+<li><strong>split</strong> — tokenise a representative command line
+  (<code>prog --name="John Doe" -x 'a b c' plain\ arg --path=/usr/local/bin file"1".txt</code>)
+  the way the Bourne shell does, honouring <code>'single'</code> / <code>"double"</code> quotes,
+  backslash escapes and quote-concatenation
+  (<code>Shellwords.split</code> / <code>String#shellsplit</code>).</li>
+<li><strong>escape</strong> — escape a string full of shell metacharacters
+  (<code>foo bar &amp; baz | qux; echo $HOME &gt; /tmp/f 'x' "y" (z)</code>) so the shell parses it
+  back verbatim (<code>Shellwords.escape</code> / <code>String#shellescape</code>).</li>
+<li><strong>join</strong> — escape-and-join an argument vector, including a space, an embedded
+  quote, a semicolon, a <code>$</code>-variable and an <strong>empty</strong> element (which becomes <code>''</code>)
+  (<code>Shellwords.join</code> / <code>Array#shelljoin</code>).</li>
+</ul>
+<p>Unlike some ecosystem modules, Ruby's <code>shellwords</code> is a <strong>pure-Ruby stdlib module</strong>
+(<code>lib/shellwords.rb</code>) — there is no C extension. So the MRI / YJIT / JRuby /
+TruffleRuby columns measure each interpreter executing the same Ruby source, and
+the go column measures <strong>this pure-Go library</strong> doing the equivalent work. Parity
+is reachable head-on: same algorithm, different runtime. Every operation's output
+is checked <strong>byte-identical to MRI</strong> (SHA-256 of the tokens / the escaped string)
+before any timing is trusted — the harness aborts on a mismatch.</p>
+<ul>
+<li><strong>Method:</strong> each process runs 3 untimed warm-up passes, then 25 timed passes of
+  a fixed inner loop, timed with a monotonic clock; the <strong>best</strong> pass is reported
+  as <strong>ns/op</strong> (lower is better). <code>vs MRI</code> &lt; 1.00× means <em>faster than MRI</em>.
+  Interpreter start-up is outside the timed region, so these are operation costs,
+  not <code>ruby file.rb</code> process costs.</li>
+<li><strong>Runtimes:</strong> <code>ruby</code> (MRI, the oracle) and <code>ruby --yjit</code>; <code>jruby</code> (on the JVM);
+  <code>truffleruby</code> (GraalVM CE Native).</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">rbgo end-to-end row</p>
+<p>The whole-interpreter <code>rbgo</code>-vs-MRI row (single-shot <code>ruby file.rb</code> wall time,
+the format used by some other module pages) has not yet been captured for
+<code>Shellwords</code> on a controlled host, so it is not shown here rather than printed
+as a fabricated figure. The library-level section below is the real, measured
+parity result for this module.</p>
 </div>
-<h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>go<span class="w"> </span>get<span class="w"> </span>github.com/go-ruby-shellwords/shellwords
-</code></pre></div>
-<h2 id="worked-example">Worked example<a class="headerlink" href="#worked-example" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nx">w</span><span class="p">,</span><span class="w"> </span><span class="nx">_</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">shellwords</span><span class="p">.</span><span class="nx">Split</span><span class="p">(</span><span class="s">`a &quot;b c&quot; d\ e`</span><span class="p">)</span><span class="w">    </span><span class="c1">// [&quot;a&quot;, &quot;b c&quot;, &quot;d e&quot;]</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nx">e</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">shellwords</span><span class="p">.</span><span class="nx">Escape</span><span class="p">(</span><span class="s">&quot;a b&quot;</span><span class="p">)</span><span class="w">               </span><span class="c1">// &quot;a\\ b&quot;</span>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nx">s</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">shellwords</span><span class="p">.</span><span class="nx">Join</span><span class="p">([]</span><span class="kt">string</span><span class="p">{</span><span class="s">&quot;a&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;b c&quot;</span><span class="p">})</span><span class="w">  </span><span class="c1">// &quot;a b\\ c&quot;</span>
-</code></pre></div>
-<h2 id="shape">Shape<a class="headerlink" href="#shape" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// Split performs POSIX sh word splitting (Shellwords.shellsplit).</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kd">func</span><span class="w"> </span><span class="nx">Split</span><span class="p">(</span><span class="nx">s</span><span class="w"> </span><span class="kt">string</span><span class="p">)</span><span class="w"> </span><span class="p">([]</span><span class="kt">string</span><span class="p">,</span><span class="w"> </span><span class="kt">error</span><span class="p">)</span>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c1">// Escape escapes a string so it survives one round of shell parsing</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1">// (Shellwords.shellescape).</span>
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="kd">func</span><span class="w"> </span><span class="nx">Escape</span><span class="p">(</span><span class="nx">s</span><span class="w"> </span><span class="kt">string</span><span class="p">)</span><span class="w"> </span><span class="kt">string</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
-<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="c1">// Join joins words into a single shell-safe command line, the inverse</span>
-<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="c1">// of Split (Shellwords.shelljoin).</span>
-<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="kd">func</span><span class="w"> </span><span class="nx">Join</span><span class="p">(</span><span class="nx">words</span><span class="w"> </span><span class="p">[]</span><span class="kt">string</span><span class="p">)</span><span class="w"> </span><span class="kt">string</span>
-</code></pre></div>
-<h2 id="mri-conformance">MRI conformance<a class="headerlink" href="#mri-conformance" title="Permanent link">&para;</a></h2>
-<p>Correctness is defined by reference Ruby. A <strong>differential oracle</strong> runs a wide
-corpus through both the system <code>ruby</code> and this library and compares the results
-<strong>byte-for-byte</strong> — not approximated from memory. The oracle tests skip
-themselves where <code>ruby</code> is not on <code>PATH</code> (e.g. the qemu arch lanes), so the
-cross-arch builds still validate the library.</p>
-<h2 id="relationship-to-ruby">Relationship to Ruby<a class="headerlink" href="#relationship-to-ruby" title="Permanent link">&para;</a></h2>
-<p><code>go-ruby-shellwords/shellwords</code> is <strong>standalone and reusable</strong>, and is the backend bound into
-<a href="https://github.com/go-embedded-ruby/ruby">go-embedded-ruby</a> by <code>rbgo</code> as a
-native module — the same way <a href="https://github.com/go-ruby-regexp">go-ruby-regexp</a>
-and <a href="https://github.com/go-ruby-erb">go-ruby-erb</a> are bound. The dependency runs
-the other way: this library has no dependency on the Ruby runtime.</p>
+<h2 id="library-level-benchmark-go-api-vs-runtimes-2026-07-03">Library-level benchmark (Go API vs runtimes) — 2026-07-03<a class="headerlink" href="#library-level-benchmark-go-api-vs-runtimes-2026-07-03" title="Permanent link">&para;</a></h2>
+<p>This section measures the <strong>pure-Go library directly, through its Go API</strong> — not
+the <code>rbgo</code> interpreter path. It isolates the library primitive from
+Ruby-interpreter dispatch, answering the parity question head-on: <em>is the pure-Go
+implementation as fast as the reference runtime's own <code>Shellwords</code>?</em> The <strong>same
+workload, same inputs, same iteration counts</strong> run through the Go library and
+through each reference runtime's stdlib; outputs were checked identical to MRI
+before any timing.</p>
+<ul>
+<li><strong>Host:</strong> Apple M4 Max (<code>Mac16,5</code>, arm64), macOS 26.5.1 — <strong>date 2026-07-03</strong>.</li>
+<li><strong>Runtimes:</strong> Go 1.26.4 · MRI <code>ruby 4.0.5 +PRISM</code> · MRI + YJIT · JRuby 10.1.0.0
+  (OpenJDK 25) · TruffleRuby 34.0.1 (GraalVM CE Native).</li>
+<li><strong>Inputs:</strong> the annotated command line, escape string and argument vector above,
+  identical on both sides (see <a href="https://github.com/go-ruby-shellwords/docs/tree/main/benchmarks"><code>benchmarks/</code></a>).</li>
+<li><strong>Method:</strong> 3 untimed warm-up passes, then 25 timed passes of a fixed 2000-op
+  inner loop, monotonic clock, <strong>best</strong> pass reported as <strong>ns/op</strong>.</li>
+</ul>
+<h4 id="split">split<a class="headerlink" href="#split" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Runtime</th>
+<th style="text-align: right;">ns/op</th>
+<th style="text-align: right;">vs MRI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>go-ruby (pure Go)</strong></td>
+<td style="text-align: right;">333.4</td>
+<td style="text-align: right;">0.06×</td>
+</tr>
+<tr>
+<td>MRI</td>
+<td style="text-align: right;">5338.0</td>
+<td style="text-align: right;">1.00×</td>
+</tr>
+<tr>
+<td>MRI + YJIT</td>
+<td style="text-align: right;">4909.5</td>
+<td style="text-align: right;">0.92×</td>
+</tr>
+<tr>
+<td>JRuby</td>
+<td style="text-align: right;">4474.1</td>
+<td style="text-align: right;">0.84×</td>
+</tr>
+<tr>
+<td>TruffleRuby</td>
+<td style="text-align: right;">7845.5</td>
+<td style="text-align: right;">1.47×</td>
+</tr>
+</tbody>
+</table>
+<h4 id="escape">escape<a class="headerlink" href="#escape" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Runtime</th>
+<th style="text-align: right;">ns/op</th>
+<th style="text-align: right;">vs MRI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>go-ruby (pure Go)</strong></td>
+<td style="text-align: right;">156.9</td>
+<td style="text-align: right;">0.03×</td>
+</tr>
+<tr>
+<td>MRI</td>
+<td style="text-align: right;">5899.0</td>
+<td style="text-align: right;">1.00×</td>
+</tr>
+<tr>
+<td>MRI + YJIT</td>
+<td style="text-align: right;">5627.5</td>
+<td style="text-align: right;">0.95×</td>
+</tr>
+<tr>
+<td>JRuby</td>
+<td style="text-align: right;">2397.3</td>
+<td style="text-align: right;">0.41×</td>
+</tr>
+<tr>
+<td>TruffleRuby</td>
+<td style="text-align: right;">2135.7</td>
+<td style="text-align: right;">0.36×</td>
+</tr>
+</tbody>
+</table>
+<h4 id="join">join<a class="headerlink" href="#join" title="Permanent link">&para;</a></h4>
+<table>
+<thead>
+<tr>
+<th>Runtime</th>
+<th style="text-align: right;">ns/op</th>
+<th style="text-align: right;">vs MRI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>go-ruby (pure Go)</strong></td>
+<td style="text-align: right;">230.9</td>
+<td style="text-align: right;">0.04×</td>
+</tr>
+<tr>
+<td>MRI</td>
+<td style="text-align: right;">5417.5</td>
+<td style="text-align: right;">1.00×</td>
+</tr>
+<tr>
+<td>MRI + YJIT</td>
+<td style="text-align: right;">4835.5</td>
+<td style="text-align: right;">0.89×</td>
+</tr>
+<tr>
+<td>JRuby</td>
+<td style="text-align: right;">1624.6</td>
+<td style="text-align: right;">0.30×</td>
+</tr>
+<tr>
+<td>TruffleRuby</td>
+<td style="text-align: right;">2527.1</td>
+<td style="text-align: right;">0.47×</td>
+</tr>
+</tbody>
+</table>
+<p>Across all three operations the pure-Go library is <strong>dramatically faster than MRI</strong>
+— <code>split</code> <strong>~16×</strong> (0.06×), <code>escape</code> <strong>~38×</strong> (0.03×), <code>join</code> <strong>~23×</strong> (0.04×).
+This is the expected shape when the reference is <em>interpreted pure Ruby</em>: MRI's
+<code>shellsplit</code> drives a <code>String#scan</code> over a multi-alternative regex and <code>shellescape</code>
+runs two <code>gsub</code> passes, where the Go implementation is a single tight byte-scanner
+with no per-token regex machine or intermediate allocations.</p>
+<p><strong>go vs YJIT — go wins every operation.</strong> Even against MRI + YJIT the pure-Go
+library is far ahead: <code>split</code> <strong>~14.7×</strong> faster (333.4 vs 4909.5 ns/op),
+<code>escape</code> <strong>~35.9×</strong> faster (156.9 vs 5627.5), <code>join</code> <strong>~20.9×</strong> faster
+(230.9 vs 4835.5). YJIT trims only a few percent off MRI here (0.89×–0.95×):
+these string-scanning workloads are dominated by regex/<code>gsub</code> C runtime calls that
+the JIT cannot inline away.</p>
+<p>It also beats the JVM/GraalVM runtimes on every operation: JRuby (0.84× / 0.41× /
+0.30× the <em>MRI</em> time, i.e. slower than the go column on all three) and TruffleRuby
+(1.47× / 0.36× / 0.47×) — TruffleRuby is actually <strong>slower than MRI on <code>split</code></strong> at
+this warm-up budget. Output stays byte-identical to MRI throughout (the harness
+verifies the SHA-256 of every op before timing).</p>
+<div class="admonition note">
+<p class="admonition-title">Reproduce</p>
+<p>The harness is committed under
+<a href="https://github.com/go-ruby-shellwords/docs/tree/main/benchmarks"><code>benchmarks/</code></a>:
+a self-contained Go driver (<code>go/</code>, pins the published library by
+pseudo-version in <code>go.mod</code>, no <code>replace</code>), the equivalent <code>ruby/shellwords.rb</code>
+workload, and <code>run.sh</code>. Run <code>bash benchmarks/run.sh</code>; it first verifies the Go
+output is byte-identical to MRI (SHA-256 per op) and aborts on mismatch, then
+times. Env <code>OUTER</code>/<code>WARM</code> tune the pass budget and <code>RUBY</code>/<code>JRUBY</code>/<code>TRUFFLERUBY</code>
+select the runtime binaries.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warm-up budget &amp; noise — framing</p>
+<p>Numbers reflect a <strong>fixed warm-process budget</strong> (3 warm-up + 25 timed passes
+in one process). The JVM/GraalVM JITs (JRuby, TruffleRuby) may need a larger
+warm-up to reach steady state, so their columns can <strong>understate</strong> peak
+throughput. The go column's ops are sub-microsecond (156–333 ns/op), so treat
+per-row differences under ~10% as noise. Every number here is a <strong>real measured
+value</strong> from the dated run above — nothing is fabricated, estimated, or
+cherry-picked. The go-ruby column is the pure-Go library; every other column is
+that interpreter's own pure-Ruby <code>shellwords</code> doing the equivalent work.</p>
+</div>
 
 
 
