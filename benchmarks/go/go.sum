@@ -4,3 +4,5 @@ github.com/go-ruby-shellwords/shellwords v0.0.0-20260717074108-d7e869454d70 h1:d
 github.com/go-ruby-shellwords/shellwords v0.0.0-20260717074108-d7e869454d70/go.mod h1:gJ+9ba+y8+DKenwjZKbTLVSuX6Xp7V5R7pZ6NwtD6x0=
 github.com/go-ruby-shellwords/shellwords v0.0.0-20260916102720-dcaddc4ec112 h1:kj85uTSB28WFuN0NsNUlr7q42ZDKVkB0M6dOEn/UNuI=
 github.com/go-ruby-shellwords/shellwords v0.0.0-20260916102720-dcaddc4ec112/go.mod h1:gJ+9ba+y8+DKenwjZKbTLVSuX6Xp7V5R7pZ6NwtD6x0=
+github.com/go-ruby-shellwords/shellwords v0.0.0-20261010115348-955711fc6801 h1:PbhDgCx2j7TCW89H1bhfGvJ73ztlgfdpNGKUJZlF4lo=
+github.com/go-ruby-shellwords/shellwords v0.0.0-20261010115348-955711fc6801/go.mod h1:NrN90FqdcLdgPfhYd37AqMPkBv/iFHdwZvJGX4ctFgk=
